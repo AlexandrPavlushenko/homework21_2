@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="col-2">
+        <div data-bs-theme="dark">
+            <div class="card" style="max-width: 20rem; height: 81rem; padding: 10px">
+                <h5><span class="badge text-bg-light">В</span> Меню</h5>
+                <div class="list-group">
+                    <a href="../html/main.html" class="list-group-item list-group-item-action">Главная</a>
+                    <a href="../html/category.html" class="list-group-item list-group-item-action">Категории</a>
+                    <a href="../html/catalog.html" class="list-group-item list-group-item-action">Каталог</a>
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Контакты</a>
+                </div>
+                <div class="btn-group position-absolute bottom-0 start-0">
+                    <button class="btn btn-secondary dropdown-toggle m-2" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Пользователь
+                    </button>
+                    <ul class="dropdown-menu m-0">
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-9 jumbotron jumbotron-fluid text-black">
+        <div class="container">
+            <h1 class="m-5 text-center">Контакты</h1>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="card p-3 bg-light text-emphasis-dark">
+                        <label for="name" class="form-label">Имя</label>
+                        <input id="name" class="form-control" type="text" aria-label="пример ввода по умолчанию">
+
+                        <label for="email" class="form-label mt-3">Почта</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input id="email" type="text" class="form-control" aria-label="email"
+                                   aria-describedby="basic-addon1">
+                        </div>
+
+                        <label for="message" class="form-label mt-3">Сообщение</label>
+                        <textarea id="message" class="form-control" aria-label="С текстовым полем" rows="4"></textarea>
+
+                        <!-- Кнопка с обновленным стилем -->
+                        <button type="submit" class="btn btn-primary mt-3" style="width: 7rem;">Отправить</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ms-5">
+                    <h4>Наши контакты</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                        sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                        aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+                        a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                        Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                        Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+                        consequat vitae, eleifend ac, enim.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
